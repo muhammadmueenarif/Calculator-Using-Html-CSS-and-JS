@@ -10,32 +10,29 @@
     <div id="main">
 
         <form name="form1">
-            <input type="text" name="userinput"> <br> <br>
-            <input type="button" value="Calculate" onclick="form1.userinput.value">
-            <br> <br>
-
-            <input type="button" value="1" onclick="form1.userinput.value+=9">
-            <input type="button" value="2" onclick="form1.userinput.value+=1">
-            <input type="button" value="3" onclick="form1.userinput.value+=1">
-            <input type="button" value="+" onclick="form1.userinput.value+=1">
-            <br>
-
-            <input type="button" value="4" onclick="form1.userinput.value+=6">
-            <input type="button" value="5" onclick="form1.userinput.value+=7">
-            <input type="button" value="6" onclick="form1.userinput.value+=8">
-            <input type="button" value="*" onclick="form1.userinput.value='*'">
-            <br>
-
-            <input type="button" value="3" onclick="form1.userinput.value+=3">
-            <input type="button" value="4" onclick="form1.userinput.value+=4">
-            <input type="button" value="5" onclick="form1.userinput.value+=5">
-            <input type="button" value="-" onclick="form1.userinput.value= '-' ">
-            <br> 
-
-            <input type="button" value="0" onclick="form1.userinput.value+=0">
+            <input type="text" name="userinput" placeholder="0"> <br>
             <input type="button" value="1" onclick="form1.userinput.value+=1">
             <input type="button" value="2" onclick="form1.userinput.value+=2">
-            <input type="button" value="+" onclick="form1.userinput.value='+'">
+            <input type="button" value="3" onclick="form1.userinput.value+=3">
+            <input type="button" value="/" onclick="form1.userinput.value+='/'">
+            <br>
+
+            <input type="button" value="4" onclick="form1.userinput.value+=4">
+            <input type="button" value="5" onclick="form1.userinput.value+=5">
+            <input type="button" value="6" onclick="form1.userinput.value+=6">
+            <input type="button" value="*" onclick="form1.userinput.value+='*'">
+            <br>
+
+            <input type="button" value="7" onclick="form1.userinput.value+=7">
+            <input type="button" value="8" onclick="form1.userinput.value+=8">
+            <input type="button" value="9" onclick="form1.userinput.value+=9">
+            <input type="button" value="-" onclick="form1.userinput.value+='-'">
+            <br> 
+
+            <input type="button" value="C" onclick="form1.userinput.value=''">
+            <input type="button" value="0" onclick="form1.userinput.value+=0">
+            <input type="button" value="=" onclick="form1.userinput.value= eval(form1.userinput.value)">
+            <input type="button" value="+" onclick="form1.userinput.value+='+'">
             <br>
 
 
@@ -43,5 +40,11 @@
         </form>
 
     </div>
+
+        <script> 
+
+
+        </script>
+
 </body>
 </html>
