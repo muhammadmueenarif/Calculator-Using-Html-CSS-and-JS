@@ -16,3 +16,5 @@ should change with -, instead of coming in front of + in input.
 if user press same symbol multiple times, then it will write only one time. we can do it by js. 
 
 we will detect last value in the input and if it is symbol and user again enter that symbol, we will replace it by new symbol. 
+
+Now the last is to design css. 
